@@ -1,0 +1,37 @@
+
+
+.container{
+
+    width: 1000px;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+
+
+    
+}
+h4{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+button{
+    font-size: large;
+    width: 100px;
+    margin:20px;
+    color: teal;
+    background-color:white;
+    border-radius: 12px;
+}
+
+.card {
+    display: grid;
+    width:50%;
+    height:60%;
+    background-color: white;
+    margin: auto;
+    box-shadow: black;
+    padding:30px;
+    /* grid-template-rows: max-content 200px 1fr; */
+}
