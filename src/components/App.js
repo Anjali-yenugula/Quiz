@@ -2,35 +2,56 @@ import React,{useState} from "react";
 import "../styles.css";
 import quiz from "../quiz";
 
-function App() {
-const [quizArray , setArray] =  useState(quiz);
-// const [question,setQuestion] = useState(0);
+
+function App(){
+
+const [currentQuestion, setCurrentQuestion] = useState(0);
+const [showScore, setShowScore] = useState(false);
 // const [score, setScore] = useState(0);
+// const [selectAnswer,setAnswer]=useState(null);
 
 
+  const nextQuestionClick =() =>{
+     if (currentQuestion < quiz.length-1) {
+      setCurrentQuestion(currentQuestion + 1);
+    } else {
+      setShowScore(true);
+    }
+  };
 
 
-  return (
-    <div class="container">
-        <div>
-      {
-        quizArray.map((quizz)=>{
-          return (<div className="card">
-            <h4>{quizz.question}</h4>,
-            <p>Options: {quizz.options}</p>
-          </div>) 
-        })
+// const answerClicked=()=>{
+//   if(selectAnswer){
+//      setScore(score+1);
+//   }else{
+//     console.log(false);
+//   }
+// }
 
+return (
 
-      
-      }
-      <button className="button">save</button><button className="button">next</button>
+<>
+<div className="space" >   
+     <div className="card">
+          <div ><h3>{quiz[currentQuestion].question}</h3></div>
+        </div>
+        <div className="card">
+          {quiz[currentQuestion].options.map((options) => (
+            <button>{options.answerText}</button>
+          ))}
+        </div>
+        <div style={{marginLeft:"500px"}}>
+        <button>Save</button>
+        <button onClick={nextQuestionClick}>Next</button>
+        {/* <h4>You scored {score} out of {quiz.length}</h4> */}
+
+        </div>
+       
       </div>
-      </div>
-     
-    
-  );
+  </>
+);
 }
+
 
 export default App;
 

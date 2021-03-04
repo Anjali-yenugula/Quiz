@@ -33,5 +33,7 @@ button{
     margin: auto;
     box-shadow: black;
     padding:30px;
-    /* grid-template-rows: max-content 200px 1fr; */
+}
+.space{
+    margin-top:7%;
 }
