@@ -4,88 +4,89 @@
         "question": "Q1) Find the greatest number that will divide 43, 91 and 183 so as to leave the same remainder in each case. ",
         "options":
         [
-        { "answerText": 4, "isCorrect": true },
-        { "answerText": 7, "isCorrect": false },
-        { "answerText": 9, "isCorrect": false },
-        { "answerText": 13, "isCorrect": false }
-    ]
+        { "answer": 4},
+        { "answer": 7},
+        { "answer": 9},
+        { "answer": 13}
+    ],"correctAnswer":4
     },
     {
         "id":1,
         "question": "Q2) Which of the following fraction is the largest ?  ",
-        "options":[{ "answerText": "7/8", "isCorrect": true },
-            { "answerText": "13/16", "isCorrect": false },
-            { "answerText": "31/40", "isCorrect": false },
-            { "answerText": "63/80", "isCorrect": false }
-        ]
+        "options":[{ "answer": "7/8"},
+            { "answer": "13/16"  },
+            { "answer": "31/40"  },
+            { "answer": "63/80" }
+        ],"correctAnswer":"7/18"
     },
 
         {
         "id":2,
         "question": "Q3) Find the greatest number that will divide 43, 91 and 183 so as to leave the same remainder in each case. ",
-        "options":[{ "answerText": "4", "isCorrect": true },
-            { "answerText": "7", "isCorrect": false },
-            { "answerText": "9", "isCorrect": false },
-            { "answerText": "13", "isCorrect": false }
+        "options":[{ "answer": "4" },
+            { "answer": "7"  },
+            { "answer": "9"  },
+            { "answer": "13"  }
         ]
     },{
         "id":3,
         "question": "Q4) The least perfect square, which is divisible by each of 21, 36 and 66 is: ",
-    "options":[{ "answerText": "213444", "isCorrect": false },
-        { "answerText": "214344", "isCorrect": false },
-        { "answerText": "214434", "isCorrect": false },
-        { "answerText": "213454", "isCorrect": true }
-    ]
+    "options":[{ "answer": "213444"  },
+        { "answer": "214344"  },
+        { "answer": "214434" },
+        { "answer": "213454"}
+    ],"correctAnswer":213454
     },{
         "id":4,
         "question": "Q5) If 20% of a = b, then b% of 20 is the same as: ",
-        "options":[{ "answerText": "5% of a", "isCorrect": false },
-            { "answerText": "4% of a", "isCorrect": true},
-            { "answerText": "20% of a", "isCorrect": false },
-            { "answerText": "None of these", "isCorrect": false }
-        ]
+        "options":[{ "answer": "5% of a"  },
+            { "answer": "4% of a"},
+            { "answer": "20% of a"  },
+            { "answer": "None of these" }
+        ],"correctAnswer":"4% of a"
     },{
         "id":5,
         "question": "Q6) A man walked diagonally across a square lot. Approximately, what was the percent saved by not walking along the edges? ",
-        "options":[{ "answerText": "20", "isCorrect": false },
-            { "answerText": "24", "isCorrect": false},
-            { "answerText": "30", "isCorrect": true },
-            { "answerText": "33", "isCorrect": false }
+        "options":[{ "answer": "20"},
+            { "answer": "24"},
+            { "answer": "30"},
+            { "answer": "33"}
 
-        ]
+        ],"correctAnswer":"30"
     },{
         "id":6,
         "question": "Q7) Find the odd man out. 10, 25, 45, 54, 60, 75, 80 ",
-        "options":[{ "answerText": "10", "isCorrect": false },
-            { "answerText": "45", "isCorrect": false},
-            { "answerText": "54", "isCorrect": true },
-            { "answerText": "75", "isCorrect": false }
+        "options":[{ "answer": "10" },
+            { "answer": "45" },
+            { "answer": "54" },
+            { "answer": "75" }
 
-        ]
+        ],"correctAnswer":"54"
     },{
         "id":7,
         "question": "Q8) Find the greatest number that will divide 43, 91 and 183 so as to leave the same remainder in each case. ",
-        "options":[{ "answerText": "4", "isCorrect": false },
-            { "answerText": "7", "isCorrect": false},
-            { "answerText": "9", "isCorrect": true },
-            { "answerText": "13", "isCorrect": false }
+        "options":[{ "answer": "4" },
+            { "answer": "7" },
+            { "answer": "9"},
+            { "answer": "13"}
 
-        ]
+        ],"correctAnswer":"9"
     },{
         "id":8,
         "question": "Q9) 582, 605, 588, 611, 634, 617, 600 ",
-        "options":[{ "answerText": "634", "isCorrect": false },
-            { "answerText": "611", "isCorrect": false},
-            { "answerText": "605", "isCorrect": true },
-            { "answerText": "600", "isCorrect": false }
-        ]
+        "options":[{ "answer": "634"},
+            { "answer": "611"},
+            { "answer": "605"},
+            { "answer": "600"}
+        ],"correctAnswer":"605"
     },{
         "id":9,
         "question": "Q10) 8, 24, 12, 36, 18, 54, (....) ",
-        "options":[{ "answerText": "27", "isCorrect": false },
-        { "answerText": "108", "isCorrect": false},
-        { "answerText": "68", "isCorrect": true },
-        { "answerText": "72", "isCorrect": false }]
+        "options":[{ "answer": "27"},
+        { "answer": "108"},
+        { "answer": "68"},
+        { "answer": "72"}],
+        "correctAnswer":"68"
     }
     ]
  

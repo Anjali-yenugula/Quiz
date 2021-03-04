@@ -37,7 +37,7 @@ return (
         </div>
         <div className="card">
           {quiz[currentQuestion].options.map((options) => (
-            <button>{options.answerText}</button>
+            <button>{options.answer}</button>
           ))}
         </div>
         <div style={{marginLeft:"500px"}}>
