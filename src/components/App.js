@@ -6,8 +6,7 @@ import quiz from "../quiz";
 function App(){
 
 const [currentQuestion, setCurrentQuestion] = useState(0);
-const [showScore, setShowScore] = useState(false);
-// const [score, setScore] = useState(0);
+const [score, setScore] = useState(0);
 // const [selectAnswer,setAnswer]=useState(null);
 
 
@@ -15,7 +14,7 @@ const [showScore, setShowScore] = useState(false);
      if (currentQuestion < quiz.length-1) {
       setCurrentQuestion(currentQuestion + 1);
     } else {
-      setShowScore(true);
+      setScore("");
     }
   };
 
